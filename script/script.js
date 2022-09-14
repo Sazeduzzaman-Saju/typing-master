@@ -67,7 +67,7 @@ const validate = (key) => {
 
 // FINISHED TYPING
 const gameOver = () => {
-  document.removeEventListener("keydown", typeController);
+  document.addEventListener("keydown", typeController);
   // the current time is the finish time
   // so total time taken is current time - start time
   const finishTime = new Date().getTime();
@@ -117,8 +117,8 @@ const start = () => {
     if (count == 0) {
       // -------------- START TYPING -----------------
       countdownOverlay.style.display = "none";
-      document.addEventListener("keydown", typeController);
       display.classList.remove("inactive");
+      document.addEventListener("keydown", typeController);
 
       clearInterval(startCountdown);
       startTime = new Date().getTime();
