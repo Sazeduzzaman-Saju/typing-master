@@ -1,208 +1,293 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Bootstrap demo</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous" />
-    <link rel="stylesheet" href="css/blog.css" />
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <title>Blog Area</title>
+    <meta content="" name="description">
+    <meta content="" name="keywords">
+    <!-- Favicons -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css" rel="stylesheet">
+    <link href="blog/glightbox/css/glightbox.min.css" rel="stylesheet">
+    <!-- Template Main CSS File -->
+    <link href="blog/css/main.css" rel="stylesheet">
   </head>
   <body>
-    <header>
-      <nav class="navbar navbar-expand-lg bg-black fixed-top">
-        <div class="container">
-          <a class="navbar-brand" href="index.html">
-            <img src="img/logo.png" />
-          </a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link text-white" aria-current="page" href="index.html">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active text-white" href="blog.html">Blog</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </nav>
-    </header>
-    <main class="pt-5">
-      <section>
-        <div class="container-fluid mx-auto mt-5 mb-5 col-12" style="text-align: center">
-          <div class="hd">Why Should We Learn Those ?</div> . <p class=""> Today we will know about the difference of localstorage and session storage. <br />Global Scope and Block Scope and also knowing how to work Event Loop in Javascript </p>
-          <img class="img-fluid" src="img/hero-img.png" alt="" />
-          <h4 class="mt-5 mb-5 hd">Check The difference</h4>
-          <div class="row" style="justify-content: center">
-            <div class="card col-md-3 col-12">
-              <div class="card-content">
-                <div class="card-body">
-                  <div class="shadow"></div>
-                  <div class="card-title">
-                    <h4 class="card-title p-5">local Storage </h1>
-                  </div>
-                  <div class="card-subtitle"></div>
-                </div>
-              </div>
-            </div>
-            <div class="card col-md-3 col-12 ml-2">
-              <div class="card-content">
-                <div class="card-body">
-                  <div class="card-title">
-                    <h4 class="card-title p-5">Global Scope </h1>
-                  </div>
-                  <div class="card-subtitle"></div>
-                </div>
-              </div>
-            </div>
-            <div class="card col-md-3 col-12 ml-2">
-              <div class="card-content">
-                <div class="card-body">
-                  <div class="card-title">
-                    <h4 class="card-title p-5">Event Loop </h1>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="row" style="justify-content: center">
-            <div class="card col-md-3 col-12">
-              <div class="card-content">
-                <div class="card-body">
-                  <div class="shadow"></div>
-                  <div class="card-title">
-                    <h4 class="card-title p-4 mt-4">Session Storage</h4>
-                  </div>
-                  <div class="card-subtitle"></div>
-                </div>
-              </div>
-            </div>
-            <div class="card col-md-3 col-12 ml-2">
-              <div class="card-content">
-                <div class="card-body">
-                  <div class="card-title">
-                    <h4 class="card-title p-5">Block Scope </h1>
-                  </div>
-                  <div class="card-subtitle"></div>
-                </div>
-              </div>
-            </div>
-            <div class="card col-md-3 col-12 ml-2">
-              <div class="card-content">
-                <div class="card-body">
-                  <div class="card-title">
-                    <h4 class="card-title p-5">Undefined </h1>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        </div>
-      </section>
-      <section>
-        <div class="container">
-          <div class="row">
-            <h1 class="hd text-center"> How to Work Event Loop ?</h1>
-            <div class="d-flex justify-content-center align-items-center mb-5 mt-5">
-              <iframe class="rounded shadow-lg" width="650" height="350" src="https://www.youtube.com/embed/8aGhZQkoFbQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            </div>
-          </div>
-        </div>
-      </section>
-      <section id="faq" class="faq pt-5">
-        <div class="container" data-aos="fade-up">
-          <div class="row gy-4">
-            <div class="col-lg-4">
-              <div class="content px-xl-5">
-                <h3>Check All <strong>Difference</strong>
-                </h3>
-                <p> Today we will know about the difference of localstorage and session storage,Global Scope and Block Scope and also knowing how to work Event Loop in Javascript </p>
-              </div>
-            </div>
-            <div class="col-lg-8">
-              <div class="accordion accordion-flush" id="faqlist" data-aos="fade-up" data-aos-delay="100">
-                <div class="accordion-item">
-                  <h3 class="accordion-header">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-content-1" aria-expanded="false">
-                      <span class="num"></span> What is an event loop and how does it work ? </button>
-                  </h3>
-                  <div id="faq-content-1" class="accordion-collapse collapse" data-bs-parent="#faqlist" style="">
-                    <div class="accordion-body"> The event loop is a process that waits for the Call Stack to be clear before pushing callbacks from the Task Queue to the Call Stack. Once the Stack is clear, the event loop triggers and checks the Task Queue for available callbacks. </div>
-                  </div>
-                </div>
-                <!-- # Faq item-->
-                <div class="accordion-item">
-                  <h3 class="accordion-header">
-                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#faq-content-2" aria-expanded="true">
-                      <span class="num"></span> What is difference between local storage and session storage? </button>
-                  </h3>
-                  <div id="faq-content-2" class="accordion-collapse collapse show" data-bs-parent="#faqlist" style="">
-                    <div class="accordion-body"> SessionStorage is similar to LocalStorage ; the difference is that while data in localStorage doesn't expire, data in sessionStorage is cleared when the page session ends. Whenever a document is loaded in a particular tab in the browser, a unique page session gets created and assigned to that particular tab. </div>
-                  </div>
-                </div>
-                <!-- # Faq item-->
-                <div class="accordion-item">
-                  <h3 class="accordion-header">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-content-3" aria-expanded="false">
-                      <span class="num"></span> Why Undefined? </button>
-                  </h3>
-                  <div id="faq-content-3" class="accordion-collapse collapse" data-bs-parent="#faqlist">
-                    <div class="accordion-body"> Undefined is a property of the global object. That is, it is a variable in global scope. The initial value of undefined is the primitive value undefined. In all non-legacy browsers, undefined is a non-configurable, non-writable property. (Even when this is not the case, avoid overriding it.) </div>
-                  </div>
-                </div>
-                <!-- # Faq item-->
-                <div class="accordion-item">
-                  <h3 class="accordion-header">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-content-4" aria-expanded="false">
-                      <span class="num"></span> Difference between global scope and local scope in javascript </button>
-                  </h3>
-                  <div id="faq-content-4" class="accordion-collapse collapse" data-bs-parent="#faqlist">
-                    <div class="accordion-body"> JavaScript variables have only two scopes. Global Variables − A global variable has a global scope which means it can be defined anywhere in your JavaScript code. Local Variables − A local variable will be visible only within a function where it is defined. Function parameters are always local to that function. </div>
-                  </div>
-                </div>
-                <!-- # Faq item-->
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-    </main>
-    <footer>
-      <div class="mt-5">
-        <footer class="bg-light text-center text-white">
-          <!-- Grid container -->
-          <div class="container p-4 pb-0">
-            <!-- Section: Social media -->
-            <section class="mb-4">
-              <!-- Facebook -->
-              <a class="btn btn-primary btn-floating m-1 rounded-circle" style="background-color: #3b5998" href="#!" role="button">
-                <i class="fab fa-facebook-f"></i>
+    <!-- ======= Header ======= -->
+    <header id="header" class="header fixed-top" data-scrollto-offset="0">
+      <div class="container d-flex align-items-center justify-content-between">
+        <a href="index.html" class="logo d-flex align-items-center scrollto me-auto me-lg-0">
+          <h1>T.Service <span>.</span>
+          </h1>
+        </a>
+        <nav id="navbar" class="navbar">
+          <ul>
+            <li class="dropdown">
+              <a href="index.html">
+                <span>Home</span>
               </a>
-              <!-- Linkedin -->
-              <a class="btn btn-primary btn-floating m-1 rounded-circle" style="background-color: #0082ca" href="#!" role="button">
-                <i class="fab fa-linkedin-in"></i>
+            </li>
+            <li class="dropdown">
+              <a href="blog.html">
+                <span>Blog</span>
               </a>
-              <!-- Github -->
-              <a class="btn btn-primary btn-floating m-1 rounded-circle" style="background-color: #333333" href="#!" role="button">
-                <i class="fab fa-github"></i>
-              </a>
-            </section>
-            <!-- Section: Social media -->
-          </div>
-          <!-- Grid container -->
-          <!-- Copyright -->
-          <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)"> © 2020 Copyright: <a class="text-white" href="#">mrperfect@</a>
-          </div>
-          <!-- Copyright -->
-        </footer>
+            </li>
+          </ul>
+          <i class="bi bi-list mobile-nav-toggle d-none"></i>
+        </nav>
+        <!-- .navbar -->
       </div>
-      <!-- End of .container -->
+    </header>
+    <!-- End Header -->
+    <section id="hero-animated" class="hero-animated d-flex align-items-center">
+      <div class="container d-flex flex-column justify-content-center align-items-center text-center position-relative" data-aos="zoom-out">
+        <img src="blog/img/hero-carousel-3.svg" class="img-fluid animated">
+        <h2>Welcome to <span>Compare Zoon</span>
+        </h2>
+        <p>Today we will know about the difference of localstorage and session storage. <br> Global Scope and Block Scope and also knowing how to work Event Loop in Javascript </p>
+        <div class="d-flex">
+          <a href="#about" class="btn-get-started scrollto">Test Type</a>
+        </div>
+      </div>
+    </section>
+    <main id="main">
+      <!-- ======= Featured Services Section ======= -->
+      <section id="featured-services" class="featured-services">
+        <div class="container">
+          <div class="row gy-4">
+            <div class="col-xl-3 col-md-6 d-flex" data-aos="zoom-out">
+              <div class="service-item position-relative">
+                <div class="icon">
+                  <i class="bi bi-bounding-box-circles icon"></i>
+                </div>
+                <h4>
+                  <a href="" class="stretched-link">Storage</a>
+                </h4>
+                <p>SessionStorage is similar to LocalStorage ; the difference is that while data in..</p>
+              </div>
+            </div>
+            <!-- End Service Item -->
+            <div class="col-xl-3 col-md-6 d-flex" data-aos="zoom-out" data-aos-delay="200">
+              <div class="service-item position-relative">
+                <div class="icon">
+                  <i class="bi bi-bounding-box-circles icon"></i>
+                </div>
+                <h4>
+                  <a href="" class="stretched-link">Event Loop</a>
+                </h4>
+                <p>The event loop is a process that waits for the Call Stack to be clear before pus..</p>
+              </div>
+            </div>
+            <!-- End Service Item -->
+            <div class="col-xl-3 col-md-6 d-flex" data-aos="zoom-out" data-aos-delay="400">
+              <div class="service-item position-relative">
+                <div class="icon">
+                  <i class="bi bi-bounding-box-circles icon"></i>
+                </div>
+                <h4>
+                  <a href="" class="stretched-link">Loop Undifined</a>
+                </h4>
+                <p>Undefined is a property of the global object. That is, it is a variable in global..</p>
+              </div>
+            </div>
+            <!-- End Service Item -->
+            <div class="col-xl-3 col-md-6 d-flex" data-aos="zoom-out" data-aos-delay="600">
+              <div class="service-item position-relative">
+                <div class="icon">
+                  <i class="bi bi-bounding-box-circles icon"></i>
+                </div>
+                <h4>
+                  <a href="" class="stretched-link">Scope</a>
+                </h4>
+                <p>JavaScript variables have only two scopes. Global Variables − A global variable ..</p>
+              </div>
+            </div>
+            <!-- End Service Item -->
+          </div>
+        </div>
+      </section>
+      <!-- End Featured Services Section -->
+      <!-- ======= On Focus Section ======= -->
+      <section id="onfocus" class="onfocus mt-5 mb-5">
+        <div class="container-fluid p-0" data-aos="fade-up">
+          <div class="row g-0">
+            <div class="col-lg-6 video-play position-relative">
+              <a href="https://www.youtube.com/watch?v=8aGhZQkoFbQ&ab_channel=JSConf" class="glightbox play-btn"></a>
+            </div>
+            <div class="col-lg-6">
+              <div class="content d-flex flex-column justify-content-center h-100">
+                <h3>What is an event loop and how does it work ?</h3>
+                <p class=""> The event loop is the secret behind JavaScript’s asynchronous programming. JS executes all operations on a single thread, but using a few smart data structures, it gives us the illusion of multi-threading. Let’s take a look at what happens on the back-end. The call stack is responsible for keeping track of all the operations in line to be executed. Whenever a function is finished, it is popped from the stack. The event queue is responsible for sending new functions to the stack for processing. It follows the queue data structure to maintain the correct sequence in which all operations should be sent for execution. </p>
+                <a href="https://www.educative.io/answers/what-is-an-event-loop-in-javascript" class="read-more align-self-start">
+                  <span>Read More</span>
+                  <i class="bi bi-arrow-right"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- End On Focus Section -->
+      <!-- ======= Features Section ======= -->
+      <section id="features" class="features">
+        <div class="container" data-aos="fade-up">
+          <ul class="nav nav-tabs row gy-4 d-flex">
+            <li class="nav-item col-6 col-md-4 col-lg-2">
+              <a class="nav-link active show" data-bs-toggle="tab" data-bs-target="#tab-1">
+                <i class="bi bi-binoculars color-cyan"></i>
+                <h6 class="pt-2">Local Storage </h4>
+              </a>
+            </li>
+            <!-- End Tab 1 Nav -->
+            <li class="nav-item col-6 col-md-4 col-lg-2">
+              <a class="nav-link" data-bs-toggle="tab" data-bs-target="#tab-2">
+                <i class="bi bi-box-seam color-indigo"></i>
+                <h6 class="pt-2">Session Storage </h4>
+              </a>
+            </li>
+            <!-- End Tab 2 Nav -->
+            <li class="nav-item col-6 col-md-4 col-lg-2">
+              <a class="nav-link" data-bs-toggle="tab" data-bs-target="#tab-3">
+                <i class="bi bi-brightness-high color-teal"></i>
+                <h6 class="pt-2">Event Loop </h4>
+              </a>
+            </li>
+            <!-- End Tab 3 Nav -->
+            <li class="nav-item col-6 col-md-4 col-lg-2">
+              <a class="nav-link" data-bs-toggle="tab" data-bs-target="#tab-4">
+                <i class="bi bi-command color-red"></i>
+                <h6 class="pt-2">Global Scope </h4>
+              </a>
+            </li>
+            <!-- End Tab 4 Nav -->
+            <li class="nav-item col-6 col-md-4 col-lg-2">
+              <a class="nav-link" data-bs-toggle="tab" data-bs-target="#tab-5">
+                <i class="bi bi-easel color-blue"></i>
+                <h6 class="pt-2">Block Scope </h4>
+              </a>
+            </li>
+            <!-- End Tab 5 Nav -->
+            <li class="nav-item col-6 col-md-4 col-lg-2">
+              <a class="nav-link" data-bs-toggle="tab" data-bs-target="#tab-6">
+                <i class="bi bi-map color-orange"></i>
+                <h6 class="pt-2">Geting Undifined </h4>
+              </a>
+            </li>
+            <!-- End Tab 6 Nav -->
+          </ul>
+          <div class="tab-content">
+            <div class="tab-pane active show" id="tab-1">
+              <div class="row gy-4">
+                <div class="col-lg-8 order-2 order-lg-1" data-aos="fade-up" data-aos-delay="100">
+                  <h3>Local Storage</h3>
+                  <p class=""> Local Storage: This read-only interface property provides access to the Document’s local storage object, the stored data is stored across browser sessions. Similar to sessionStorage, except that localStorage data gets cleared when the page session ends – that is when the page is closed. It is cleared when the last “private” tab of a browser is closed (localStorage data for a document loaded in a private browsing or incognito session). DOMStrings are storage formats that use UTF-16 to encode data, which uses two bytes per character. Strings are automatically generated from integer keys just as they are for objects. The data stored in LocalStorage is specific to a protocol in the document. If the site is loaded over HTTP (e.g., http://example.com), localStorage returns a different object than if it is loaded over HTTPS (e.g., https://abc.com). </p>
+                </div>
+                <div class="col-lg-4 order-1 order-lg-2 text-center" data-aos="fade-up" data-aos-delay="200">
+                  <img src="blog/img/features-1.svg" alt="" class="img-fluid">
+                </div>
+              </div>
+            </div>
+            <!-- End Tab Content 1 -->
+            <div class="tab-pane" id="tab-2">
+              <div class="row gy-4">
+                <div class="col-lg-8 order-2 order-lg-1">
+                  <h3>Session Storage</h3>
+                  <p> Session Storage objects can be accessed using the sessionStorage read-only property. The difference between sessionStorage and localStorage is that localStorage data does not expire, whereas sessionStorage data is cleared when the page session ends. A unique page session gets created once a document is loaded in a browser tab. Page sessions are valid for only one tab at a time. Pages are only saved for the amount of time that the tab or the browser is open; they do not persist after the page reloads and restores. A new session is created each time a tab or window is opened; this is different from session cookies. Each tab/window that is opened with the same URL creates its own sessionStorage.When you duplicate a tab, the sessionStorage from the original tab is copied to the duplicated tab. Closing a window/tab ends the session and clears sessionStorage objects. </p>
+                </div>
+                <div class="col-lg-4 order-1 order-lg-2 text-center">
+                  <img src="blog/img/features-2.svg" alt="" class="img-fluid">
+                </div>
+              </div>
+            </div>
+            <!-- End Tab Content 2 -->
+            <div class="tab-pane" id="tab-3">
+              <div class="row gy-4">
+                <div class="col-lg-8 order-2 order-lg-1">
+                  <h3>Event Loop</h3>
+                  <p> The event loop is a process that waits for the Call Stack to be clear before pushing callbacks from the Task Queue to the Call Stack. Once the Stack is clear, the event loop triggers and checks the Task Queue for available callbacks. </p>
+                </div>
+                <div class="col-lg-4 order-1 order-lg-2 text-center">
+                  <img src="blog/img/features-3.svg" alt="" class="img-fluid">
+                </div>
+              </div>
+            </div>
+            <!-- End Tab Content 3 -->
+            <div class="tab-pane" id="tab-4">
+              <div class="row gy-4">
+                <div class="col-lg-8 order-2 order-lg-1">
+                  <h3>Global Scope</h3>
+                  <p> The Javascript global scope is the context where everything in a Javascript program executes by default. This scope includes all variables, objects, and references that are not contained within a customized scope defined by a programmer. Global scope is the entire Javascript execution environment. Any variables assigned without an explicit scope (using the var, let, or const keywords) automatically become global variables. The same is true for functions. myVar = 1; // An automatic global variable // An automatic global function function myFunc() { return true; } </p>
+                </div>
+                <div class="col-lg-4 order-1 order-lg-2 text-center">
+                  <img src="blog/img/features-4.svg" alt="" class="img-fluid">
+                </div>
+              </div>
+            </div>
+            <!-- End Tab Content 4 -->
+            <div class="tab-pane" id="tab-5">
+              <div class="row gy-4">
+                <div class="col-lg-8 order-2 order-lg-1">
+                  <h3>Block Scope</h3>
+                  <p> Block Level Scope: This scope restricts the variable that is declared inside a specific block, from access by the outside of the block. The let & const keyword facilitates the variables to be block scoped. In order to access the variables of that specific block, we need to create an object for it. Variables declared with the var keyword, do not have block scope. For instance, consider the below example: { let p = 110; const q = 111; } console.log(p); // Uncaught ReferenceError: p is not defined console.log(q); // Uncaught ReferenceError: q is not defined Here, we have used the let & const keyword to illustrate the block-level scope, in order to access the variable from outside of the block. </p>
+                </div>
+                <div class="col-lg-4 order-1 order-lg-2 text-center">
+                  <img src="blog/img/features-5.svg" alt="" class="img-fluid">
+                </div>
+              </div>
+            </div>
+            <!-- End Tab Content 5 -->
+            <div class="tab-pane" id="tab-6">
+              <div class="row gy-4">
+                <div class="col-lg-8 order-2 order-lg-1">
+                  <h3>Geting Undifined</h3>
+                  <p> Undefined is a property of the global object. That is, it is a variable in global scope. The initial value of undefined is the primitive value undefined. In all non-legacy browsers, undefined is a non-configurable, non-writable property. (Even when this is not the case, avoid overriding it.) </p>
+                </div>
+                <div class="col-lg-4 order-1 order-lg-2 text-center">
+                  <img src="blog/img/features-6.svg" alt="" class="img-fluid">
+                </div>
+              </div>
+            </div>
+            <!-- End Tab Content 6 -->
+          </div>
+        </div>
+      </section>
+      <!-- End Features Section -->
+    </main>
+    <!-- End #main -->
+    <!-- ======= Footer ======= -->
+    <footer id="footer" class="footer mt-5">
+      <div class="footer-legal text-center text-white">
+        <div class="container d-flex flex-column flex-lg-row justify-content-center justify-content-lg-between align-items-center">
+          <div class="d-flex flex-column align-items-center align-items-lg-start">
+            <div class="copyright"> &copy; Copyright <strong>
+                <span>Mr Perfect</span>
+              </strong>. All Rights Reserved </div>
+            <div class="credits"> Designed by <a href="">mrperfect@2022</a>
+            </div>
+          </div>
+          <div class="social-links order-first order-lg-last mb-3 mb-lg-0">
+            <a href="#" class="facebook">
+              <i class="bi bi-facebook"></i>
+            </a>
+            <a href="#" class="instagram">
+              <i class="bi bi-github"></i>
+            </a>
+            <a href="#" class="linkedin">
+              <i class="bi bi-linkedin"></i>
+            </a>
+          </div>
+        </div>
+      </div>
     </footer>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
-    <script src="https://kit.fontawesome.com/58b6ea3b02.js" crossorigin="anonymous"></script>
+    <!-- End Footer -->
+    <a href="#" class="scroll-top d-flex align-items-center justify-content-center">
+      <i class="bi bi-arrow-up-short"></i>
+    </a>
+    <div id="preloader"></div>
+    <script src=" https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="blog/glightbox/js/glightbox.min.js"></script>
+    <!-- Template Main JS File -->
+    <script src="blog/js/main.js"></script>
   </body>
 </html>
