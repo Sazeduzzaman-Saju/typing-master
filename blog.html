@@ -1,45 +1,208 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>T.Service || Is Here</title>
-    <link rel="stylesheet" href="css/styles.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Zilla+Slab:wght@300;400;500&display=swap"
-      rel="stylesheet"
-    />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous" />
+    <link rel="stylesheet" href="css/blog.css" />
   </head>
   <body>
-    <h1 class="title"><img src="img/logo.png" /></h1>
-    <div id="show-time">0 seconds</div>
-
-    <div class="box-container">
-      <div id="question"></div>
-
-      <div id="display" class="inactive"></div>
-
-      <div class="buttons">
-        <button id="starts">START</button>
-        <a href="blog.html">Blog</a>
+    <header>
+      <nav class="navbar navbar-expand-lg bg-black fixed-top">
+        <div class="container">
+          <a class="navbar-brand" href="index.html">
+            <img src="img/logo.png" />
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link text-white" aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active text-white" href="blog.html">Blog</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main class="pt-5">
+      <section>
+        <div class="container-fluid mx-auto mt-5 mb-5 col-12" style="text-align: center">
+          <div class="hd">Why Should We Learn Those ?</div> . <p class=""> Today we will know about the difference of localstorage and session storage. <br />Global Scope and Block Scope and also knowing how to work Event Loop in Javascript </p>
+          <img class="img-fluid" src="img/hero-img.png" alt="" />
+          <h4 class="mt-5 mb-5 hd">Check The difference</h4>
+          <div class="row" style="justify-content: center">
+            <div class="card col-md-3 col-12">
+              <div class="card-content">
+                <div class="card-body">
+                  <div class="shadow"></div>
+                  <div class="card-title">
+                    <h4 class="card-title p-5">local Storage </h1>
+                  </div>
+                  <div class="card-subtitle"></div>
+                </div>
+              </div>
+            </div>
+            <div class="card col-md-3 col-12 ml-2">
+              <div class="card-content">
+                <div class="card-body">
+                  <div class="card-title">
+                    <h4 class="card-title p-5">Global Scope </h1>
+                  </div>
+                  <div class="card-subtitle"></div>
+                </div>
+              </div>
+            </div>
+            <div class="card col-md-3 col-12 ml-2">
+              <div class="card-content">
+                <div class="card-body">
+                  <div class="card-title">
+                    <h4 class="card-title p-5">Event Loop </h1>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row" style="justify-content: center">
+            <div class="card col-md-3 col-12">
+              <div class="card-content">
+                <div class="card-body">
+                  <div class="shadow"></div>
+                  <div class="card-title">
+                    <h4 class="card-title p-4 mt-4">Session Storage</h4>
+                  </div>
+                  <div class="card-subtitle"></div>
+                </div>
+              </div>
+            </div>
+            <div class="card col-md-3 col-12 ml-2">
+              <div class="card-content">
+                <div class="card-body">
+                  <div class="card-title">
+                    <h4 class="card-title p-5">Block Scope </h1>
+                  </div>
+                  <div class="card-subtitle"></div>
+                </div>
+              </div>
+            </div>
+            <div class="card col-md-3 col-12 ml-2">
+              <div class="card-content">
+                <div class="card-body">
+                  <div class="card-title">
+                    <h4 class="card-title p-5">Undefined </h1>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        </div>
+      </section>
+      <section>
+        <div class="container">
+          <div class="row">
+            <h1 class="hd text-center"> How to Work Event Loop ?</h1>
+            <div class="d-flex justify-content-center align-items-center mb-5 mt-5">
+              <iframe class="rounded shadow-lg" width="650" height="350" src="https://www.youtube.com/embed/8aGhZQkoFbQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="faq" class="faq pt-5">
+        <div class="container" data-aos="fade-up">
+          <div class="row gy-4">
+            <div class="col-lg-4">
+              <div class="content px-xl-5">
+                <h3>Check All <strong>Difference</strong>
+                </h3>
+                <p> Today we will know about the difference of localstorage and session storage,Global Scope and Block Scope and also knowing how to work Event Loop in Javascript </p>
+              </div>
+            </div>
+            <div class="col-lg-8">
+              <div class="accordion accordion-flush" id="faqlist" data-aos="fade-up" data-aos-delay="100">
+                <div class="accordion-item">
+                  <h3 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-content-1" aria-expanded="false">
+                      <span class="num"></span> What is an event loop and how does it work ? </button>
+                  </h3>
+                  <div id="faq-content-1" class="accordion-collapse collapse" data-bs-parent="#faqlist" style="">
+                    <div class="accordion-body"> The event loop is a process that waits for the Call Stack to be clear before pushing callbacks from the Task Queue to the Call Stack. Once the Stack is clear, the event loop triggers and checks the Task Queue for available callbacks. </div>
+                  </div>
+                </div>
+                <!-- # Faq item-->
+                <div class="accordion-item">
+                  <h3 class="accordion-header">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#faq-content-2" aria-expanded="true">
+                      <span class="num"></span> What is difference between local storage and session storage? </button>
+                  </h3>
+                  <div id="faq-content-2" class="accordion-collapse collapse show" data-bs-parent="#faqlist" style="">
+                    <div class="accordion-body"> SessionStorage is similar to LocalStorage ; the difference is that while data in localStorage doesn't expire, data in sessionStorage is cleared when the page session ends. Whenever a document is loaded in a particular tab in the browser, a unique page session gets created and assigned to that particular tab. </div>
+                  </div>
+                </div>
+                <!-- # Faq item-->
+                <div class="accordion-item">
+                  <h3 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-content-3" aria-expanded="false">
+                      <span class="num"></span> Why Undefined? </button>
+                  </h3>
+                  <div id="faq-content-3" class="accordion-collapse collapse" data-bs-parent="#faqlist">
+                    <div class="accordion-body"> Undefined is a property of the global object. That is, it is a variable in global scope. The initial value of undefined is the primitive value undefined. In all non-legacy browsers, undefined is a non-configurable, non-writable property. (Even when this is not the case, avoid overriding it.) </div>
+                  </div>
+                </div>
+                <!-- # Faq item-->
+                <div class="accordion-item">
+                  <h3 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-content-4" aria-expanded="false">
+                      <span class="num"></span> Difference between global scope and local scope in javascript </button>
+                  </h3>
+                  <div id="faq-content-4" class="accordion-collapse collapse" data-bs-parent="#faqlist">
+                    <div class="accordion-body"> JavaScript variables have only two scopes. Global Variables − A global variable has a global scope which means it can be defined anywhere in your JavaScript code. Local Variables − A local variable will be visible only within a function where it is defined. Function parameters are always local to that function. </div>
+                  </div>
+                </div>
+                <!-- # Faq item-->
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="mt-5">
+        <footer class="bg-light text-center text-white">
+          <!-- Grid container -->
+          <div class="container p-4 pb-0">
+            <!-- Section: Social media -->
+            <section class="mb-4">
+              <!-- Facebook -->
+              <a class="btn btn-primary btn-floating m-1 rounded-circle" style="background-color: #3b5998" href="#!" role="button">
+                <i class="fab fa-facebook-f"></i>
+              </a>
+              <!-- Linkedin -->
+              <a class="btn btn-primary btn-floating m-1 rounded-circle" style="background-color: #0082ca" href="#!" role="button">
+                <i class="fab fa-linkedin-in"></i>
+              </a>
+              <!-- Github -->
+              <a class="btn btn-primary btn-floating m-1 rounded-circle" style="background-color: #333333" href="#!" role="button">
+                <i class="fab fa-github"></i>
+              </a>
+            </section>
+            <!-- Section: Social media -->
+          </div>
+          <!-- Grid container -->
+          <!-- Copyright -->
+          <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)"> © 2020 Copyright: <a class="text-white" href="#">mrperfect@</a>
+          </div>
+          <!-- Copyright -->
+        </footer>
       </div>
-
-      <div class="divider-container">
-        <div class="line"></div>
-        <h1 class="title2">History</h1>
-        <div class="line"></div>
-      </div>
-      <div id="histories"></div>
-    </div>
-
-    <div id="countdown"></div>
-    <div id="modal-background" class="hidden"></div>
-    <div id="result" class="hidden"></div>
-
-    <script src="script/history.js"></script>
-    <script src="script/script.js"></script>
+      <!-- End of .container -->
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/58b6ea3b02.js" crossorigin="anonymous"></script>
   </body>
 </html>

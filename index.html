@@ -14,7 +14,9 @@
     />
   </head>
   <body>
-    <h1 class="title"><img src="img/logo.png" /></h1>
+    <div>
+      <h1 class="title"><img src="img/logo.png" /></h1>
+    </div>
     <div id="show-time">0 seconds</div>
 
     <div class="box-container">
@@ -23,8 +25,21 @@
       <div id="display" class="inactive"></div>
 
       <div class="buttons">
-        <button id="starts">START</button>
         <!-- <a href="blog.html">Blog</a> -->
+        <button id="starts">START</button><br />
+      </div>
+      <div class="buttons">
+        <a
+          href="blog.html"
+          style="
+            text-decoration: none;
+            color: white;
+            border: 2px solid white;
+            padding: 10px;
+            border-radius: 10px;
+          "
+          >BLOG</a
+        >
       </div>
 
       <div class="divider-container">
@@ -43,17 +58,3 @@
     <script src="script/script.js"></script>
   </body>
 </html>
-
-<!-- // "A quick brown fox jumps over the lazy dog.",
-// "Good programmers write code that humans can understand.",
-// "First, think about the problem. Then, write the code.",
-// "There is no shortcut other than hard work.",
-// "Perfection is achieved not when there is nothing more to add, but rather when there is nothing more to take away." -->
-
-<!-- <div class="">
-  <div class="">
-  <h3>${test.questionText}</h3>
-  <p>You took: <span class="bold">${test.timeTaken}</span> seconds</p>
-    <p>You made <span class="bold red">${test.errorCount}</span> mistakes</p>
-    </div>
-  </div> -->
