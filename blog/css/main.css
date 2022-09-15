@@ -35,36 +35,6 @@
   --color-secondary-dark-rgb: 58, 71, 83;
 
   /* General colors */
-  --color-blue: #0d6efd;
-  --color-blue-rgb: 13, 110, 253;
-
-  --color-indigo: #6610f2;
-  --color-indigo-rgb: 102, 16, 242;
-
-  --color-purple: #6f42c1;
-  --color-purple-rgb: 111, 66, 193;
-
-  --color-pink: #f3268c;
-  --color-pink-rgb: 243, 38, 140;
-
-  --color-red: #df1529;
-  --color-red-rgb: 223, 21, 4;
-
-  --color-orange: #fd7e14;
-  --color-orange-rgb: 253, 126, 20;
-
-  --color-yellow: #ffc107;
-  --color-yellow-rgb: 255, 193, 7;
-
-  --color-green: #059652;
-  --color-green-rgb: 5, 150, 82;
-
-  --color-teal: #20c997;
-  --color-teal-rgb: 32, 201, 151;
-
-  --color-cyan: #0dcaf0;
-  --color-cyan-rgb: 13, 202, 240;
-
   --color-white: #ffffff;
   --color-white-rgb: 255, 255, 255;
 
@@ -75,6 +45,21 @@
   --color-black-rgb: 0, 0, 0;
   
 }
+
+/* For scrooll bar design */
+body::-webkit-scrollbar {
+  width: 0.65em;
+}
+
+body::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: darkgrey;
+  outline: 1px solid slategrey;
+}
+/* For scrooll bar design  end*/
 :root {
   scroll-behavior: smooth;
 

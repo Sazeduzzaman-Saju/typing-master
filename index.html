@@ -24,28 +24,18 @@
 
       <div id="display" class="inactive"></div>
 
-      <div class="buttons">
-        <!-- <a href="blog.html">Blog</a> -->
-        <button id="starts">START</button><br />
-      </div>
-      <div class="buttons">
-        <a
-          href="blog.html"
-          style="
-            text-decoration: none;
-            color: white;
-            border: 2px solid white;
-            padding: 10px;
-            border-radius: 10px;
-          "
-          >BLOG</a
-        >
-      </div>
+      <div class="buttons"><button id="starts">START</button><br /></div>
 
       <div class="divider-container">
+        <button class="text-center clear-button">
+          <a class="blog-page" href="blog.html">Blog</a>
+        </button>
         <div class="line"></div>
         <h1 class="title2">History</h1>
         <div class="line"></div>
+        <button class="text-center clear-button" onclick="clearLocalStorage()">
+          Clear History
+        </button>
       </div>
       <div id="histories" class=""></div>
     </div>

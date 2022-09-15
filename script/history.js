@@ -41,3 +41,8 @@ function displayHistory() {
 {
   /* <div class=""></div> */
 }
+
+function clearLocalStorage() {
+  location.reload();
+  localStorage.clear();
+}
