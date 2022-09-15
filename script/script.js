@@ -26,6 +26,7 @@ const typeController = (e) => {
   // Handle backspace press
   if (newLetter == "Backspace") {
     userText = userText.slice(0, userText.length - 1);
+    errorCount++;
     return display.removeChild(display.lastChild);
   }
 
@@ -72,7 +73,7 @@ const gameOver = () => {
   // so total time taken is current time - start time
   const finishTime = new Date().getTime();
   const timeTaken = (finishTime - startTime) / 1000;
-  const totalTimeSpent = Math.ceil(timeTaken);
+  const totalTimeTaken = Math.ceil(timeTaken);
 
   // show result modal
   resultModal.innerHTML = "";
@@ -85,12 +86,12 @@ const gameOver = () => {
   // show result
   resultModal.innerHTML += `
     <h1>Finished!</h1>
-    <p>You took: <span class="bold">${totalTimeSpent}</span> seconds</p>
+    <p>You took: <span class="bold">${totalTimeTaken}</span> seconds</p>
     <p>You made <span class="bold red">${errorCount}</span> mistakes</p>
     <button onclick="closeModal()">Close</button>
   `;
 
-  addHistory(questionText, timeTaken, errorCount);
+  addHistory(questionText, totalTimeTaken, errorCount);
 
   // restart everything
   startTime = null;
@@ -138,9 +139,8 @@ displayHistory();
 setInterval(() => {
   const currentTime = new Date().getTime();
   const timeSpent = (currentTime - startTime) / 1000;
-  const totalTimeSpent = Math.ceil(timeSpent);
 
   document.getElementById("show-time").innerHTML = `${
-    startTime ? totalTimeSpent : 0
+    startTime ? timeSpent : 0
   } seconds`;
 }, 1000);
